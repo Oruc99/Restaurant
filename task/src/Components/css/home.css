@@ -1,9 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.card:hover{
-    opacity: 0.6;
+
+.card:hover {
+    opacity: 0.8;
     box-shadow: 0px 0px 20px #212121;
+}
+
+.container {
+    width: 1300px;
+    margin: 50px auto;
+    display: grid;
+    gap: 30px;
+    filter: contrast(140%);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    border: 2px solid #212121;
+    height: 300px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+.cardImg{
+    border-radius: 20px;
 }
